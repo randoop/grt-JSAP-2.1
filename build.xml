@@ -114,7 +114,7 @@ Targets:
 	<!-- delete all intermediate files -->
     <target name="clean" depends="init">
         <delete dir="${build}" verbose="true"/>
-        <delete dir="${javadoc}" verbose="true"/>
+    <!--    <delete dir="${javadoc}" verbose="true"/>  -->
         <delete dir="${dist}" verbose="true"/>
         <mkdir dir="${build}"/>
         <mkdir dir="${javadoc}"/>
